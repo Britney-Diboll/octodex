@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo-nav {
@@ -22,7 +23,10 @@ body {
 .text-nav{
   
 }
-
+section {
+  display: flex;
+  flex-direction:column;
+}
 
 div {
   display: flex;
@@ -34,6 +38,16 @@ div {
   height: 575px;
   width: 575px;
   margin: 1em;
-  padding: 2em;
-  border: 5px solid black;
+  padding: 1em;
+  border: 3px solid gray;
+}
+
+.p-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+a {
+  margin-right: 1em;
 }
